@@ -1,0 +1,115 @@
+@media (max-width:1200px){
+    .banner_text h1 {
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    .banner_text h5 {
+        margin-bottom: 44px;
+    }
+}
+@media (max-width:991px){
+    .banner_text h1 {
+        font-size: 54px;
+        margin-bottom: 15px;
+    }
+    .banner_text h5 {
+        margin-bottom: 38px;
+        font-size: 18px;
+    }
+    .about_counter {
+        padding: 0px 28px;
+    }
+    .about_counter h2 {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    .about_counter h4 {
+        font-size: 15px;
+    }
+    .read_more span i {
+        font-size: 13px;
+        top: 8px;
+        right: 43%;
+    }
+    .read_more:hover span i {
+        right: 41%;
+    }
+    .progress_section {
+        margin-top: 10%;
+    }
+    .portfolio_icon ul {
+        top: 1%;
+    }
+    .portfolio_icon ul li{
+        padding:20px 0px
+    }
+    .team_member_section {
+        margin-top: 15%;
+    }
+    .member_photo img {
+        left: 43%;
+    }
+    .member_details {
+        margin-top: 5%;
+        padding: 37px 0px;
+    }
+    .member_details h5 {
+        margin-bottom: 10px;
+        margin-top:0px;
+    }
+    .footer_logo h1::before {
+        right: 42%;
+    }
+    #blog {
+        padding: 50px 0px;
+    }
+    #testimonial {
+        padding: 50px 0px;
+    }
+    #portfolio {
+        padding: 50px 0px;
+    }
+    #skill {
+        padding: 50px 0px;
+    }
+    #services {
+        padding: 50px 0px;
+    }
+    #about_us {
+        padding: 50px 0px;
+    }
+    #top {
+        padding: 50px;
+    }
+}
+@media (max-width:880px){
+    .logo {
+        margin-top: 5px;
+    }
+    .banner_text h1 {
+        font-size: 45px;
+        margin-bottom: 15px;
+    }
+    .banner_text h5 {
+        font-size: 16px;
+    }
+}
+@media (max-width:507px){
+    .banner_text {
+        padding-top: 14%;
+    }
+    .banner_text h1 {
+        font-size: 32px;
+        margin-bottom: 13px;
+    }
+    .banner_text h5 {
+        margin-bottom: 22px;
+        font-size: 18px;
+    }
+    .dufult_button {
+        margin-left:0px;
+        padding: 0px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}

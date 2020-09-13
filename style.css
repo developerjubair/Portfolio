@@ -1,0 +1,567 @@
+/* Default Style  */
+html{
+	scroll-behavior: smooth;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Sunflower', sans-serif;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+img{
+	max-width: 100%;
+}
+.gray_bg{
+    background: #f7f7f7;
+}
+.padding-100{
+    padding:100px 0px;
+}
+.box_shadow{
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.btn_shadow{
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+}
+/* Default Style End  */
+/* Header Part Css  */
+.header_section{
+    background: #ddd;
+}
+.navigation{}
+.logo{
+	position: relative;
+}
+.logo h1 {
+	font-size: 30px;
+	font-weight: 800;
+}
+.logo h1::before {
+	content: "";
+	position: absolute;
+	background: #dc0000;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	top: 25px;
+	right: -9px;
+}
+.my_menu{
+    
+}
+.my_menu li{
+    display:inline-block;
+}
+.my_menu li a {
+	font-size: 14px;
+	letter-spacing: 2.2px;
+    display: block;
+    position: relative;
+}
+.my_menu li a::before {
+	content: "";
+	width: 5%;
+	height: 1px;
+	background: #222;
+	top: 34px;
+	left: 28px;
+    position: absolute;
+    transition:.5s;
+    opacity:0;
+    visibility: hidden;
+}
+.my_menu li a:hover::before {
+	content: "";
+	width: 75%;
+	height: 1px;
+	background: #222;
+	top: 34px;
+	left: 9px;
+    position: absolute;
+    opacity:1;
+    visibility: visible;
+}
+/* Header Part Css End */
+/* Banner Part Css  */
+.banner_section{
+    background:url('img/home-banner-2.png') no-repeat;
+    background-attachment: fixed;
+    background-position:bottom center;
+    background-size: 100% auto;
+	height:100vh;
+	padding:100px 0px;
+}
+.banner_text {
+	padding-top: 5%;
+}
+.banner_text h1 {
+	font-size: 65px;
+	margin-bottom: 25px;
+	font-weight: 800;
+}
+.banner_text h5 {
+	font-weight: 300;
+	margin-bottom: 50px;
+}
+.dufult_btn{
+    text-align:center;
+}
+.dufult_button {
+	background: #d50000;
+	color: #fff;
+	font-size: 12px;
+	display: inline-block;
+	padding: 0px 30px;
+	border-radius: 45px;
+	height: 45px;
+	line-height: 45px;
+	transition: all 0.3s ease 0s;
+	margin-left: 30px;
+    letter-spacing: 3.3px;
+    text-transform: uppercase;
+}
+.dufult_button:hover{
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+    color:white;
+}
+/* Banner Part Css End */
+/* About Part Css  */
+.about_left {
+	padding-top: 105px;
+}
+.about_left h2 {
+	font-size: 25px;
+}
+.about_left h3 {
+	font-size: 18px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+.about_left p {
+	margin-top: 15px;
+	font-size: 15px;
+}
+.about_btn .dufult_button {
+	margin-left: 0px;
+}
+.about_btn .dufult_button span i {
+    transform: translateX(-15px);
+    transition:.5s;
+    opacity:0;
+    visibility: hidden;
+}
+.about_btn {
+	margin-top: 22px;
+}
+.about_btn .dufult_button:hover span i{
+    transform:translateX(15px);
+    opacity:1;
+    visibility: visible;
+}
+.about_right{}
+.about_right img{}
+.about_us_counter {
+	padding: 40px 20px;
+	text-align: center;
+}
+.about_counter{}
+.about_counter h2{}
+.about_counter h4 {
+	font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* About Part Css End */
+/* Service Section Css  */
+.service_section{}
+.template_heading{}
+.template_heading h2 {
+	font-weight: 800;
+	margin-bottom: 22px;
+	font-size: 38px;
+}
+.template_heading p {
+	color: #606060;
+}
+.service_box {
+	padding: 55px;
+	text-align: center;
+    margin-top: 50px;
+}
+.service_box:hover .box_icon span i{
+    background:#606060;
+    color:#fff;
+}
+.box_icon{}
+.box_icon span{}
+.box_icon span i {
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	background: #dc0000;
+	color: #fff;
+	font-size: 40px;
+	border-radius: 50%;
+    margin-bottom: 22px;
+    transition:.5s;
+}
+.box_text{}
+.box_text h5{}
+.box_text p {
+	font-size: 14px;
+	color: #606060;
+}
+.read_more{
+	position:relative;
+	display:block
+}
+.read_more a{
+    color:#222;
+    font-family: 'Open Sans', sans-serif;
+	font-weight:600;
+	font-size:14px;
+}
+.read_more span i {
+	font-size: 15px;
+	position: absolute;
+	top: 5px;
+    right: 100px;
+    transition:.5s;
+    opacity:0;
+    visibility: hidden;
+}
+.read_more:hover span i {
+    opacity:1;
+    visibility: visible;
+	right: 60px;
+}
+/* Service Section Css End */
+/* Skill Section Css Part  */
+.skill_section{}
+.skill_left{}
+.skill_left h2 {
+	font-size: 23px;
+	margin-bottom: 25px;
+}
+.skill_left p {
+	color: #606060;
+	font-size: 14px;
+	line-height: 1.6;
+}
+.about_btn {
+	margin-top: 22px;
+}
+.skill_btn a{}
+.progress_section{}
+.progress_content {
+	margin-bottom: 22px;
+}
+.progress_content .progress{
+   height: 6px;
+}
+.progress_content .progress .progress-bar{
+    background:#d50000;
+}
+.progress-text {
+	display: flex;
+	font-size: 14px;
+	margin-bottom: 4px;
+}
+.progress-text .lan {
+	width: 47%;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.progress-text .percent {
+	display: block;
+	width: 47%;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+	
+}
+/* Skill Section Css Part End */
+/* Portfolio Section Css  */
+.tab_section #myTab {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0px;
+}
+.tab_section #myTab .nav-item {
+	padding-left: 20px;
+}
+.tab_section .nav .nav-item .nav-link {
+	color: #222;
+	transition: .5s;
+	background:#fff;
+	border-radius: 40px;
+}
+.tab_section .nav .nav-item .nav-link:hover {
+	color: #fff;
+	background:#dc0000;
+	border-radius: 40px;
+}
+.tab_section .nav .nav-item .nav-link.active {
+	color: #fff;
+	background: #dc0000;
+	border-radius: 40px;
+}
+,portfolio_section{}
+.tab_section{}
+.portfolio_content{
+	position: relative;
+	box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.4);
+	margin-bottom:20px;
+}
+.portfolio_img{}
+.portfolio_img img {
+	border: 10px solid #fff;
+}
+.portfolio_icon{}
+.portfolio_icon ul {
+	position: absolute;
+	top: 2%;
+	left: -23px;
+	background: rgba(255, 255, 255, 0.62);
+	padding: 20px;
+	bottom: 45px;
+	transition: .5s;
+	opacity: 0;
+	visibility: hidden;
+}
+.portfolio_content:hover .portfolio_icon ul{
+	left:10px;
+	opacity:1;
+	visibility: visible;
+}
+.portfolio_content:hover .portfolio_icon ul li{
+	margin-left: 0px;
+	opacity:1;
+	visibility: visible;
+}
+.portfolio_icon ul li {
+	padding-bottom: 10px;
+	display: block;
+	margin-left: -52px;
+	visibility: hidden;
+	opacity: 0;
+	transition:all .6s;
+}
+.portfolio_icon ul li a{}
+.portfolio_icon ul li a span{}
+.portfolio_icon ul li a span i {
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	background: #222;
+	text-align: center;
+	border-radius: 50%;
+	color: #fff;
+	transition:.4s;
+}
+.portfolio_icon ul li a span i:hover{
+	background:#dc0000;
+}
+.portfolio_text {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	padding:10px;
+	background:
+}
+.portfolio_text h5 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+.portfolio_text h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+/* Portfolio Section Css End */
+/* Team member Section  */
+.team_member_section {
+	position: relative;
+	margin-top: 32%;
+}
+.member_photo{}
+.member_photo img {
+	position: absolute;
+	top: -49px;
+	left: 128px;
+	border-radius: 50%;
+	width: 100px;
+	border: 5px solid #fff;
+	box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.4);
+}
+.member_details{}
+.member_details h5 {
+	margin-top: 20%;
+	margin-bottom: 10px;
+}
+.member_details p {
+	font-size: 16px;
+	color: #606060;
+}
+/* Team member Section End */
+/* Blog Section Css  */
+.main_blog_section {
+	border-radius: 10px;
+	margin-top: 50px;
+}
+.blog_photo{}
+.blog_photo img{}
+.blog_details {
+	padding: 20px;
+}
+.blog_details span {
+	font-size: 12px;
+}
+.blog_details span b {
+	margin-right: 4px;
+}
+.blog_details h4 {
+	font-size: 22px;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+.blog_details p {
+	font-size: 15px;
+	color: #606060;
+}
+
+.blog_details .read_more span i {
+	opacity: 0;
+	visibility:hidden;
+	position: absolute;
+	left: 78px;
+	top: 6px;
+}
+.blog_details .read_more:hover span i{
+	left:90px;
+	opacity:1;
+	visibility: visible;
+}
+/* Blog Section Css End */
+/* Contact Us Section Css  */
+.main_contact_section {
+	box-shadow: 0px 1px 27px -3px rgba(0, 0, 0, 0.2);
+	padding: 50px;
+}
+.contact_text {
+	padding: 30px;
+}
+.contact_text h4 {
+	margin-bottom: 18px;
+}
+.contact_text p {
+	color: #606060;
+	font-size: 16px;
+	width: 90%;
+	margin-bottom: 3%;
+}
+.contact_icon_section{}
+.contact_icon{}
+.contact_icon span {
+	margin-right: 10px;
+}
+.contact_icon span i {
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	background: #dc0000;
+	text-align: center;
+	color: #fff;
+	border-radius: 50%;
+	font-size: 15px;
+	margin-left: 21px;
+}
+.contact_icon_text {
+	margin-bottom: 20px;
+}
+.contact_icon_text p {
+	color: #606060;
+	font-size: 15px;
+}
+.contact_form_heading{}
+.contact_form_heading h4 {
+	margin-bottom: -50px;
+	padding: 30px;
+	margin-left: 8px;
+	box-sizing: border-box;
+}
+.contact_form {
+	padding: 30px;
+	box-sizing: border-box;
+}
+.contact_form .form-group {
+	padding: 8px;
+}
+.contact_form .form-group .form-control {
+	padding: 10px 20px;
+}
+.form-btn .dufult_button {
+	margin-left: 7px;
+	margin-top: 8px;
+}
+/* Contact Us Section Css End */
+/* Footer Css Part  */
+.footer_section{
+	padding:100px;
+	background:#111;
+}
+.footer_logo{
+	position: relative;
+}
+.footer_logo h1 {
+	font-size: 30px;
+	font-weight: 800;
+	display: inline;
+	margin-left: 4px;
+	color: #fff;
+	vertical-align: top;
+}
+.footer_logo h1::before {
+	content: "";
+	position: absolute;
+	background: #fff;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	top: 19px;
+	right: 45%;
+}
+.footer_icon{}
+.footer_icon ul{}
+.footer_icon ul li {
+	padding: 20px 5px;
+}
+.footer_icon ul li a {
+	color: #a5a5a5;
+}
+.footer_icon ul li a i {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+}
+.footer_icon ul li a i:hover {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	background: #232323;
+	border-radius: 50%;
+}
+.copyright_section{
+	
+}
+.copyright_section span {
+	color: #a5a5a5;
+	font-size: 14px;
+}
+/* Footer Css Part End */
